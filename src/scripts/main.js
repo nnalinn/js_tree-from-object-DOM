@@ -30,7 +30,7 @@ function createTree(element, data) {
 
     createTree(li, data[key]);
 
-    ul.appendChild('li');
+    ul.appendChild(li);
   }
 }
 
